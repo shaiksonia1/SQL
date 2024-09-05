@@ -62,3 +62,17 @@ WHERE "product_name" Ilike  'm%'
 
 SELECT * from testproducts
 WHERE "product_name" ='Jims Secret Recipe' and  "Category_id" = 11;
+
+SELECT * from testproducts
+WHERE "product_name" ='Jims Secret Recipe' or  "Category_id" = 11;
+
+SELECT * from testproducts
+WHERE "product_name" in ('Marys Healthy Mix','Peters Scary Stuff ',
+'Jims Secret Recipe')
+
+select * from testproducts
+where "Category_id" between 2 and 12;
+
+select "Currency" from testproducts
+where "Currency" isnull;
+
