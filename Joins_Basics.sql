@@ -70,8 +70,8 @@ from students as s
 inner join enrollments as e
 on s.student_id = e.student_id
 GROUP BY course_name;
---Retrieve all students and their enrollments, including students who haven't enrolled in any course.
---
+--Retrieve all students and their enrollments, including students who haven't enrolled in any course.--
+
 SELECT s.first_name, s.last_name, e.course_name
 FROM students AS s
 LEFT JOIN enrollments AS e
