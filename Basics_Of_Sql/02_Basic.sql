@@ -37,10 +37,28 @@ delete FROM testproducts
 WHERE "Category_id" = 3;
 
 SELECT * from testproducts
-where product_name like 'J%';
-
-SELECT * from testproducts
 where "Category_id" < 10;
 
 SELECT * FROM testproducts
 WHERE "Category_id" >10;
+
+SELECT * FROM testproducts
+WHERE "Category_id" >=10;
+
+SELECT * FROM testproducts
+WHERE "Category_id" <=10;
+
+SELECT *from testproducts
+WHERE "Category_id" <> 4;
+
+SELECT *from testproducts
+WHERE "Category_id" != 10;
+
+SELECT * from testproducts
+where product_name like 'J%';
+
+SELECT * from testproducts
+WHERE "product_name" Ilike  'm%'
+
+SELECT * from testproducts
+WHERE "product_name" ='Jims Secret Recipe' and  "Category_id" = 11;
