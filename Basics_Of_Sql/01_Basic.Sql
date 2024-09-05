@@ -1,3 +1,9 @@
+/*
+On Day I have learnt about creating table,inserting values,altering table,update
+
+
+*/
+
 create TABLE Demo(
     "Category_id" int,
     "Category_name" varchar(50),
