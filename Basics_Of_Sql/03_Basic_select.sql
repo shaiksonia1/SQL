@@ -30,3 +30,6 @@ limit 3;
 
 select * from testproducts
 limit 3 offset 3;
+
+SELECT max("Category_id") as highest_price from testproducts
+SELECT min("Category_id") as lowest_price from testproducts
